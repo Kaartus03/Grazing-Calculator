@@ -6,9 +6,9 @@ st.image(img)
 
 # Introduction
 st.subheader("What is Holistic Grazing?")
-st.text("Under rotational grazing, only one portion of pasture is grazed at a time while the 
+st.text("Under rotational grazing, only one portion of pasture is grazed at a time while the" 
         "remainder of the pasture" "“rests. Pastures are subdivided into smaller areas"
-        "(referred to as paddocks)"" and livestock are moved from one paddock to another. Resting"
+        "referred to as paddocks"" and livestock are moved from one paddock to another. Resting"
         "grazed paddocks allows forage plants to renew energy reserves,"" rebuild vigor, deepen" 
         "their root system, and give ""long-term maximum production.Rotational grazing can be" 
         "practiced in a variety of intensities."" Systems can range from 2 to 30 or more paddocks."
