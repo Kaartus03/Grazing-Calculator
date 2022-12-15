@@ -25,7 +25,7 @@ st.text("Under rotational grazing, only one portion of pasture is grazed at a ti
         " W= Percentage of Body Weight of animal."
         " A = Total Area Required for grazing "
         "C = Animal Units (1 Unit = 720 kg ≈ 1 Cow or 7 Sheeps) "
-        "G = Grass yield per Day"")
+        "G = Grass yield per Day")
 
 # Input Values
 weight = st.number_input("Enter Percentage Body Weight of Animal Unit in KG", step=1)
