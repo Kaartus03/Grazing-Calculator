@@ -16,8 +16,8 @@ st.text(
 
 # Input Values
 weight = st.number_input("Enter Percentage Body Weight of Animal Unit in KG", step=1)
-C = st.number_input("Enter the Total Number of Animal Units", step=1)
-G = st.number_input("Enter the Grass Yield per Day", step=0.1)
+C = st.number_input("Enter the Total Number of Animal Units in No.", step=1)
+G = st.number_input("Enter the Grass Yield per Day (kg/d)", step=0.1)
 Area = (weight*C)/(0.36*G)
 
 st.success(f"Total area Required is {Area}")
