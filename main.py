@@ -9,7 +9,7 @@ st.subheader("Formula")
 st.text(
         "𝐴𝑟𝑒𝑎=(W 𝑥 𝐶)/(0.36 𝑥 𝐺) "
         "Where, "
-        " W= Percentage of Body Weight consumption of animal (kg)."
+        " W= Total consumption by Body Weight of an animal (kg)."
         " A = Total Area Required for grazing (Acres) "
         "C = Animal Units in Nos. (1 Unit = 720 kg ≈ 1 Cow or 7 Sheeps) "
         "G = Grass yield per day (Dry Feed in kg/acres)")
