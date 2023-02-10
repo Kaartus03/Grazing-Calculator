@@ -19,5 +19,8 @@ weight = st.number_input("Enter Percentage Body Weight of Animal Unit in KG", st
 C = st.number_input("Enter the Total Number of Animal Units in No.", step=1)
 G = st.number_input("Enter the Grass Yield per Day (kg/acres)", step=0.1)
 Area = (weight*C)/(0.36*G)
+formatted_string = "{:.2f}".format(Area)
+# format to two decimal places
+float_value = float(formatted_string)
 
-st.success(f"Total area Required is {Area} Acres")
+st.success(f"Total area Required is {float_value} Acres")
